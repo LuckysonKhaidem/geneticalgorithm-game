@@ -1,0 +1,50 @@
+<html>
+    <head>
+            <meta charset="utf-8"/>
+            <title> World's hardest Game </title>
+            <style>
+                button {
+                    padding: 10px;
+                    
+                }
+                #mobile-controls {
+                    position: relative;
+                    margin-left: 48%;
+                    margin-top: 5%;
+                }
+                canvas {
+                    display:block;
+                    
+                }
+            </style>
+           <script src = ""></script>
+        </head>
+        <body>
+            <div>
+                <h3>Dead Count: <span id = "deadCount">0</span></h3>
+                <h3>Generation: <span id = "generation">1</span></h3> 
+                <h3>Last Generation Best Fitness: <span id = "bestFitness">0</span></h3>
+            </div>
+            <!-- <div><h3>Distance: <span id = "score">0</span></h3></div> -->
+            <canvas id = "myCanvas" width = "600" height = "420">
+                <style> 
+                    * {padding: 0; margin: 0;}
+                    canvas { background: #eee; display: block; margin: 0 auto;}
+                    </style>
+                </canvas>
+                <!-- <div id = "mobile-controls">
+                    <button id = "left-button"> <- </button>
+                    <button id = "right-button"> -> </button>
+                </div> -->
+
+            </body>
+        <script src = "ball.js"></script>
+        <script src = "player.js"></script>
+        <script src = "AI.js"></script>
+        <script src = "controller.js"></script>
+        
+        <script src = "game2.js"></script>
+      
+        
+       
+</html>
